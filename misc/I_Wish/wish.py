@@ -1,6 +1,6 @@
 banned='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()~`{}[]+-_=<>.,/?:;|'
 
-print("Input your wish!")
+print("Enter your wish!")
 x=input('> ')
 
 filtered=False
