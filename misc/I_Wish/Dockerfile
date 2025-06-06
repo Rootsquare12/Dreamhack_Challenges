@@ -7,8 +7,8 @@ RUN apk add socat
 RUN adduser -u 1337 -D -g "" $USER
 
 WORKDIR /chall
-COPY wish.py .
-COPY flag.txt .
+COPY ./public/wish.py .
+COPY ./public/flag.txt .
 
 RUN chown $USER:$USER /chall/wish.py /chall/flag.txt
 RUN chmod 0500 /chall/wish.py
