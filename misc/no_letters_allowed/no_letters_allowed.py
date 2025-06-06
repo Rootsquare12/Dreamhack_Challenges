@@ -11,6 +11,7 @@ for i in range(0,len(banned),1):
         break
 
 if filtered==False:
+    print("Wish granted!")
     exec(eval(x))
 else:
-    print("No Hack~")
+    print("Sorry, I didn't understand your wish.")
