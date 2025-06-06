@@ -1,4 +1,4 @@
-banned='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()~`{}[]+-_=<>.,/?:;'
+banned='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()~`{}[]+-_=<>.,/?:;|'
 
 print("Input your wish!")
 x=input('> ')
