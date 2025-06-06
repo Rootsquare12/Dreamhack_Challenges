@@ -11,7 +11,10 @@ for i in range(0,len(banned),1):
         break
 
 if filtered==False:
-    print("Wish granted!")
-    exec(eval(x))
+    print("Wish granted!",flush=True)
+    try:
+        exec(eval(x))
+    except:
+        pass
 else:
     print("Sorry, I didn't understand your wish.")
